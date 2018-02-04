@@ -1,0 +1,55 @@
+a {text-decoration:none}
+a:link{text-decoration: none}
+a:visited{text-decoration: none}
+a:hover{text-decoration:none;text-decoration:inherit}
+.fl{float: left}
+.fr{float: right}
+.clb{clear: both}
+.opacity7{filter:Alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity:0.7;opacity: 0.7}
+.w1200{width: 1200px;margin-left:auto;margin-right: auto}
+/*header*/
+.header{width: 100%;overflow: hidden;z-index: 99}
+.header{position: fixed;top: 0;left:0;height: 80px;background-repeat: repeat-x;background-position: left top;background-image: url(../images/pcv3/header_bg.png)}
+/*
+mindex:首页;
+pindex:pc版;
+mnindex:安卓版;
+zindex:手游助手;
+cindex:通用;
+*/
+/*.mindex{background-image: url(../images/indexv3/header_bg.png)}
+.pindex{background-image: url(../images/pcv3/header_bg.png)}
+.mnindex{background-image: url(../images/mobilenew/header_bg.png)}
+.zindex{background-image: url(../images/zhushou/header_bg.png)}
+*/
+.cindex{background-color:#2EA0D9;background-image:none;position: static}
+.header .logo{width: 147px;height: 47px;margin-top: 17px}
+.header ul{width:auto}
+.header ul li{float: left;line-height: 80px;padding-right: 56px}
+.header ul li a{font-size: 16px;color: #fff;padding-bottom: 5px;opacity: 0.7;color: #e2e2e2\9}
+.header ul li a:hover,.header ul li a.selected{border-bottom: 2px solid #fff;color: #fff;opacity: 1}
+.header ul li{position: relative;}
+.header ul li span.new{position: absolute;right: 35px;top:15px;display: block;width: 36px;height: 22px;background-image: url(http://cdn-img.ludashi.com/a/201706/02/59311ba2da10c.gif);}
+.header ul li span.erhuo{position: absolute;right: 35px;top:12px;display: block;width: 53px;height: 30px;background-image: url(http://cdn-img.ludashi.com/a/201708/02/5981a221113b8.gif);}
+/*footer*/
+.footer {width: 100%;height:auto;padding: 40px 0 40px;text-align: center}
+.footer p {color: #a194c3;line-height: 25px}
+.footer p a { color: #a194c3;text-decoration: none}
+.footer p a:hover { color: #bbbae7;text-decoration: underline}
+.ifooter p {color: #888}
+.ifooter p a { color: #888}
+.ifooter p a:hover { color: #bbbae7}
+
+.zfooter{background-color: #1F232C;padding: 60px 0}
+.zfooter p {color: #aeaeae}
+.zfooter p a { color: #aeaeae;font-size: 14px}
+.zfooter p a:hover { color: #4ba7ed;text-decoration: underline;}
+
+/*ie6*/
+.header{_background-color:#125baa;_background-image:none}
+/*.mindex{_background-color:#091d4d;_background-image:none}
+.pindex{_background-color:#125baa;_background-image:none}
+.mnindex{_background-color:#3b3e43;_background-image:none}
+.zindex{_background-color:#2b2d31;_background-image:none}
+*/
+.cindex{_background-color:#125baa;_background-image:none}
